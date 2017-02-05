@@ -18,6 +18,6 @@ docker build -t scenes365_container .
 then, from command line, do
 
 ```
-docker run scenes365_container python run_scene.py images/mountains.jpg
+docker run --rm scenes365_container python run_scene.py images/mountains.jpg
 
 ```
