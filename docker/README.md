@@ -10,14 +10,14 @@ a docker image containing:
 first, build container from docker image.
 
 ```
-git clone https://github.com/metalbubble/places365
-cd places365/docker
-docker build -t places365_container .
+git clone https://github.com/SumanthReddyKaliki/scenes365
+cd scenes365/docker
+docker build -t scenes365_container .
 ```
 
 then, from command line, do
 
 ```
-docker run places365_container python run_scene.py images/mountains.jpg
+docker run scenes365_container python run_scene.py images/mountains.jpg
 
 ```
