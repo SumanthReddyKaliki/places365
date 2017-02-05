@@ -39,8 +39,8 @@ def classify_scene(fpath_design, fpath_weights, fpath_labels, im):
 if __name__ == '__main__':
 
 	# fetch pretrained models
-	fpath_design = 'models_places/deploy_alexnet_places365.prototxt'
-	fpath_weights = 'models_places/alexnet_places365.caffemodel'
+	fpath_design = 'models_places/deploy_resnet152_places365.prototxt'
+	fpath_weights = 'models_places/resnet152_places365.caffemodel'
 	fpath_labels = 'resources/labels.pkl'
 
 	# fetch image
